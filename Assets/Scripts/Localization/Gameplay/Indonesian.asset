@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081159e6b79df53468613f997b4e5cf7, type: 3}
+  m_Name: Indonesian
+  m_EditorClassIdentifier: 
+  language: 1
+  checkpointText: Checkpoint Dicapai!
+  pauseMenuText: Game Dijeda
+  settingsButton: Pengaturan
+  resumeButton: Lanjutkan
+  mainMenuButton: Menu Utama
+  restartButton: Reset Ulang
+  settingsMenuTitle: Pengaturan
+  musicSlider: Musik
+  sfxSlider: Efek Suara
+  languageText: Bahasa
+  englishText: Inggris
+  indonesianText: Indonesia [Dipilih]
+  gameOverMenuText: Anda Kalah
+  reloadText: Muat Ulang
+  mainMenuText: Menu Utama
+  levelCompletedMenuText: Level Selesai!
+  nextLevelButton: Level Selanjutnya
+  restartButon: Reset Ulang
+  mainMenuButtonText: Menu Utama
+  star1Text: Menyelesaikan Level
+  star2Text: Selesai Dalam Waktu 02:00
+  star3Text: Sisa Nyawa Lebih Dari 50%
+  boarText: Babi Hutan
+  slugText: Bekicot

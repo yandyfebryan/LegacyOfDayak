@@ -1,0 +1,61 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Combat : CoreComponent, IDamageable, IKnockbackable
+{
+    private bool isKnockbackActive;
+    private float knockbackStartTime;
+
+    public float damage = 15f;
+
+    //private GameObject player;
+
+    public bool canDealDamage = false;
+   
+    // private void Start() 
+    // {
+    //     player = GameObject.FindWithTag("Player");
+    // }
+
+    public void LogicUpdate()
+    {
+        CheckKnockback();
+    }
+
+    public void Damage(float amount)
+    {
+        if(canDealDamage)
+        {
+            if(core != null)
+            {
+                return;
+                // PlayerHealth health = player.GetComponent<PlayerHealth>();
+                // health.TakeDamage(damage);
+            }
+        }
+    }
+
+    public void Knockback(Vector2 angle, float strength, int direction)
+    {
+        if (core != null)
+        {
+        core.Movement.SetVelocity(strength, angle, direction);
+        core.Movement.CanSetVelocity = false;
+        isKnockbackActive = true;
+        knockbackStartTime = Time.time;
+        }
+    }
+
+    private void CheckKnockback()
+    {
+        if (core != null)
+        {
+            if(isKnockbackActive && core.Movement.CurrentVelocity.y <= 0.01f && core.CollisionSenses.Ground)
+            {
+                isKnockbackActive = false;
+                core.Movement.CanSetVelocity = true;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081159e6b79df53468613f997b4e5cf7, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  language: 0
+  checkpointText: Checkpoint Reached!
+  pauseMenuText: Game Paused
+  settingsButton: Settings
+  resumeButton: Resume
+  mainMenuButton: MainMenu
+  restartButton: Restart
+  settingsMenuTitle: Settings
+  musicSlider: Music
+  sfxSlider: SFX
+  languageText: Language
+  englishText: English [Selected]
+  indonesianText: Indonesian
+  gameOverMenuText: Game Over
+  reloadText: Reload
+  mainMenuText: Main Menu
+  levelCompletedMenuText: Level Completed!
+  nextLevelButton: Next Level
+  restartButon: Restart
+  mainMenuButtonText: Main Menu
+  star1Text: Finished Level
+  star2Text: Finish The Level In 02:00
+  star3Text: More than 50% health remaining
+  boarText: Boar
+  slugText: Slug

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ef802f97bba7a49be14dbfb0319973, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  language: 0
+  startPlaying: Start Playing
+  settingsButton: Settings
+  galleryButton: Gallery
+  informationButton: Information
+  exitButton: Exit
+  selectLevelText: Select Level
+  loadingPanelText: Loading Level
+  level1Start: Start Game
+  level1ObjectiveText: Objective
+  level1ObjectiveDetailText: Reach The End Of Level
+  level1StoryText: Story
+  level1StoryDetailText: Aji is preparing for the journey to the jungle with his
+    fellow Dayak people
+  level2Start: Start Game
+  level2ObjectiveText: Objective
+  level2ObjectiveDetailText: Gather Firewood
+  level2StoryText: Story
+  level2StoryDetailText: Aji is tasked to collect firewoods for the village event
+  level3Start: Start Game
+  level3ObjectiveText: Objective
+  level3ObjectiveDetailText: Hunting Boar
+  level3StoryText: Story
+  level3StoryDetailText: Boar meat is an essential meat for the Dayak village event
+    foods
+  settingsMenuTitle: Settings
+  musicSlider: Music
+  sfxSlider: SFX
+  languageText: Language
+  englishText: English [Selected]
+  indonesianText: Indonesian
+  confirmExitText: Are You Sure
+  yesText: Yes
+  noText: No
+  informationMenuTitle: Information
+  aboutButton: About
+  profileButton: Profile
+  profileMenuTitle: Profile
+  studentName: 'Name : Yandi Febrian'
+  studentID: 'SID : 1815015006'
+  studentMajor: Informatics Program
+  studentFaculty: Faculty of engineering
+  studentUniversity: Mulawarman University
+  aboutMenuTitle: About
+  aboutText: The game "Legacy of Dayak" is a 2D side-scrolling genre game with the
+    main character named "Hajiiq", a young man from the Dayak tribe who must find
+    his way back to his village after getting lost in the forest while hunting with
+    his friends.  This game is the result of a thesis research project, developed
+    with the aim of introducing and preserving the culture of the Dayak tribe.
+  galleryMenuTitle: Gallery

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccd878a39f35d8647a73bec6edd1ca29, type: 3}
+  m_Name: Akhir
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterNameEnglish: Aji Tulur
+    characterNameIndonesian: Aji Tulur
+    lineEnglish: '"Hajiiq is that you there?"'
+    lineIndonesian: '"Hajiiq apakah itu engkau disana?"'
+    avatarSprite: {fileID: 21300000, guid: 7a075226e4f91c44e9b16557739d2751, type: 3}
+    avatarColor: {r: 1, g: 1, b: 1, a: 1}
+  - characterNameEnglish: Hajiiq
+    characterNameIndonesian: Hajiiq
+    lineEnglish: '"Yes it''s me. Let''s go, we need to prepare for the journey with
+      the others"'
+    lineIndonesian: '"Ya, ini aku. Ayo kita berangkat, kita perlu bersiap-bersiap
+      untuk perjalanan bersama-sama yang lainnya"'
+    avatarSprite: {fileID: 21300000, guid: 7a075226e4f91c44e9b16557739d2751, type: 3}
+    avatarColor: {r: 1, g: 0.3254717, b: 0.3254717, a: 1}
+  - characterNameEnglish: Aji Tulur
+    characterNameIndonesian: Aji Tulur
+    lineEnglish: '"Right, let''s go together then"'
+    lineIndonesian: '"Baiklah, mari kita jalan bersama"'
+    avatarSprite: {fileID: 21300000, guid: 7a075226e4f91c44e9b16557739d2751, type: 3}
+    avatarColor: {r: 1, g: 1, b: 1, a: 1}
+  - characterNameEnglish: HAJIIQ
+    characterNameIndonesian: HAJIIQ
+    lineEnglish: Reach Hajiiq to complete the level
+    lineIndonesian: Datangi Hajiiq untuk menyelesaikan level
+    avatarSprite: {fileID: 21300000, guid: 7a075226e4f91c44e9b16557739d2751, type: 3}
+    avatarColor: {r: 1, g: 0.3254902, b: 0.3254902, a: 1}

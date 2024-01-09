@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ef802f97bba7a49be14dbfb0319973, type: 3}
+  m_Name: Indonesian
+  m_EditorClassIdentifier: 
+  language: 1
+  startPlaying: Mulai Bermain
+  settingsButton: Pengaturan
+  galleryButton: Galeri
+  informationButton: Informasi
+  exitButton: Keluar
+  selectLevelText: Pilih Level
+  loadingPanelText: Memuat Level
+  level1Start: Mulai Game
+  level1ObjectiveText: Tujuan
+  level1ObjectiveDetailText: Sampai Ke Akhir Level
+  level1StoryText: Cerita
+  level1StoryDetailText: Aji sedang bersiap-siap untuk perjalanan menuju hutan lebat
+    dengan teman-teman Dayaknya
+  level2Start: Mulai Game
+  level2ObjectiveText: Tujuan
+  level2ObjectiveDetailText: Kumpulkan Kayu Api
+  level2StoryText: Cerita
+  level2StoryDetailText: Aji ditugaskan untuk mengumpulkan kayu api untuk keperluan
+    acara di desanya
+  level3Start: Mulai Game
+  level3ObjectiveText: Tujuan
+  level3ObjectiveDetailText: Memburu Babi Hutan
+  level3StoryText: Cerita
+  level3StoryDetailText: Daging babi hutan merupakan daging yang sangat diperlukan
+    untuk makanan di acara desa Dayak
+  settingsMenuTitle: Pengaturan
+  musicSlider: Musik
+  sfxSlider: Efek Suara
+  languageText: Bahasa
+  englishText: Inggris
+  indonesianText: Indonesia [Dipilih]
+  confirmExitText: Anda Yakin?
+  yesText: Ya
+  noText: Tidak
+  informationMenuTitle: Informasi
+  aboutButton: Tentang
+  profileButton: Profil
+  profileMenuTitle: Profil
+  studentName: 'Nama : Yandi Febrian'
+  studentID: 'NIM : 1815015006'
+  studentMajor: Program Studi Informatika
+  studentFaculty: Fakultas Teknik
+  studentUniversity: Universitas Mulawarman
+  aboutMenuTitle: Tentang
+  aboutText: Gim "Legacy Of Dayak" Merupakan sebuah gim bergenre 2d Side-Scrolling
+    dengan karakte utama bernama "Aji", seorang pemuda suku dayak yang harus mencari
+    jalan kembali ke desanya setelah tersesat di hutan saat sedang berburu bersama
+    teman-temannya.                                         Game ini merupakan hasil
+    dari penelitian skripsi yang dibangun dengan tujuan memperkenalkan dan melestarikan
+    budaya suku dayak.
+  galleryMenuTitle: Galeri
